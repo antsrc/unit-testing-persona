@@ -14,7 +14,6 @@ public class PersonaTest {
 	@BeforeEach
 	public void init() {
 		persona = new Persona("Antonio", 99, 'H', 81.5, 1.89);
-		System.out.println("init");
 	}
 
 	@Test
